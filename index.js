@@ -202,7 +202,7 @@ var q = new Queue(async function (job, callback) {
                     if (error.response.data.extras.result_codes.transaction === 'tx_bad_seq') {
                         console.log('Bad sequence happened, reloading account..');
                         //q.pause();
-                        //sourceAccount[job] = await server.loadAccount(fr.publicKey());
+                        //sourceAccount[job] = await server.loadAccount(fr.publicKey()); // Rebuild a tx here
                         //q.resume();
                         console.log('Fresh account loaded!!');
                     }
