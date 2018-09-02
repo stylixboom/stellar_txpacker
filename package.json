@@ -1,0 +1,17 @@
+{
+  "name": "stellar_txpacker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Siriwat K.",
+  "license": "ISC",
+  "dependencies": {
+    "better-queue": "^3.8.10",
+    "express": "^4.16.3",
+    "node-gyp": "^3.8.0",
+    "stellar-sdk": "^0.10.3"
+  }
+}

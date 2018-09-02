@@ -1,0 +1,6 @@
+# Stellar Channel Packer
+
+
+Just run `node index.js`
+
+And test at `http://localhost:8080/pay`
